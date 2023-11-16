@@ -19,6 +19,26 @@
 
 }
 
+.menu-mobile.active{
+    background-color: var(--black);
+    height: 45PX;
+    padding-top: 12px;
+    padding-left: 10%;
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+
+}
+
+.nav-ul-li > a {
+    text-decoration: none;
+    color: var(--white);
+}
+
 .menu-mobile.inactive{
     display: none;
 }
@@ -27,7 +47,7 @@
     display: block;
 }
 
-@media (min-width: 768px){
+@media (min-width: 570px){
     .header{
         display: flex;
         justify-content: space-between;
@@ -46,6 +66,7 @@
         align-items: center;
         width:320px;
     }
+
 
     .nav-ul{
         list-style: none;
