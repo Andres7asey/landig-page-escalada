@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    background-color: var(--black);
+    color: var(--white);
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+}
+
+.footer-logo{
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.footer-social{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.linkedin-icon{
+    padding: 8px;
+}
